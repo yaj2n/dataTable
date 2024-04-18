@@ -1,0 +1,17 @@
+<!--
+ - Created by 지니 on 2024-03-12.
+ -->
+
+<!-- Table Inline Edit -->
+<template>
+    <div>
+        <lightning-datatable
+                key-field="Id"
+                data={data.data}
+                columns={columns}
+                onsave={handleSave}
+                draft-values={draftValues}
+                hide-checkbox-column="true">
+        </lightning-datatable>
+    </div>
+</template>
