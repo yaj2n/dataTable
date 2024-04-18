@@ -1,2 +1,3 @@
 # dataTable
-Lightning Web Component
+
+DataTable Inline Edit with Lightning web Component
